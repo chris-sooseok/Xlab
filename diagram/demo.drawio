@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
   <diagram name="Page-1" id="mFPDoiIEZo2c36R8akCv">
-    <mxGraphModel dx="2482" dy="2132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2762" dy="2115" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,17 +103,14 @@
             <mxPoint x="-20" y="420.62842105263195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tCQ5VAmm4bvmuJfqTbqq-101" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;For user input, Global Behaviors and Local Behaviors provide dropdown menu from which users can choose as an input to instruct what specific behaviors the API should analyze on. The Global Behaviors is predefined and globally-shared, intended to facilitate user collaboration with the API while&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Local Behaviors are instructions that users can define by utilizing Behavior Manager.&lt;/span&gt;&lt;/div&gt;Behavior Manager displays a user interactive panel where users can define a specific behavior name. Then, AI will provide a corresponding description based on the name users define. Also, users can range a timeline so that AI analyzes on the specified behavior more accurately within the timeline." style="rounded=0;whiteSpace=wrap;html=1;spacing=8;verticalAlign=top;fontSize=20;align=left;" parent="1" vertex="1">
-          <mxGeometry x="810" y="295" width="740" height="245" as="geometry" />
+        <mxCell id="tCQ5VAmm4bvmuJfqTbqq-101" value="&lt;div style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 20px;&quot;&gt;Global Behaviors and Local Behaviors provide dropdown menu from which users can choose as an input to instruct what specific behaviors the API should focus on analyzing. The Global Behaviors is predefined and globally-shared, intended to facilitate user collaboration with the API while&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Local Behaviors are user-defined instruction registered by Behavior Manager tool.&lt;/span&gt;&lt;/div&gt;Behavior Manager displays a user interactive panel where users can define a specific behavior name. Then, AI will generate a corresponding description based on the name that users have defined. Through this panel, users can also range a specific timeline that AI can concentrate on to provide more accurate human behavior data. Users then can save the defined behavior to Local Behaviors menu" style="rounded=0;whiteSpace=wrap;html=1;spacing=8;verticalAlign=top;fontSize=20;align=left;" parent="1" vertex="1">
+          <mxGeometry x="810" y="295" width="760" height="265" as="geometry" />
         </mxCell>
-        <mxCell id="tCQ5VAmm4bvmuJfqTbqq-103" value="As the analysis is performed throughout the colloboration between users and the Chatbox, the AI generated human behavior data is stored and visualized displaying the occurrences of each behavior" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacing=8;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="tCQ5VAmm4bvmuJfqTbqq-103" value="As the analysis is performed by AI throughout the colloboration with users, the AI-generated human behavior data is stored and visualized by displaying the occurrences of each behavior that has been requested" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacing=8;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="600" y="570" width="530" height="120" as="geometry" />
         </mxCell>
         <mxCell id="tCQ5VAmm4bvmuJfqTbqq-104" value="&lt;b&gt;Database&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="740" y="111" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="o2pHDT9w3lLTf4COiTzS-1" value="Once upon video upload, Chatbox is initialized and ChatGPT API in the backend&amp;nbsp;&lt;span style=&quot;background-color: initial; font-size: 18px;&quot;&gt;is prompted to analyze the provided video. Then, ChatGPT will continue to examine the video based on interactive user&#39;s input&lt;/span&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=18;spacing=8;" vertex="1" parent="1">
-          <mxGeometry x="870" y="102.25" width="430" height="110" as="geometry" />
         </mxCell>
         <mxCell id="o2pHDT9w3lLTf4COiTzS-2" value="&lt;h1&gt;SOAP.AI: A collaborative tool for documenting human bahavior in videos through multimodal generatie AI&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="-390" width="680" height="90" as="geometry" />
@@ -124,10 +121,10 @@
             <mxPoint x="380" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o2pHDT9w3lLTf4COiTzS-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.559;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="o2pHDT9w3lLTf4COiTzS-1">
+        <mxCell id="o2pHDT9w3lLTf4COiTzS-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="164" as="sourcePoint" />
-            <mxPoint x="830" y="169" as="targetPoint" />
+            <mxPoint x="870" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="o2pHDT9w3lLTf4COiTzS-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -150,6 +147,9 @@
             <mxPoint x="470" y="580" as="sourcePoint" />
             <mxPoint x="470" y="420" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="o2pHDT9w3lLTf4COiTzS-19" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; font-size: 20px; line-height: normal; font-family: &amp;quot;Helvetica Neue&amp;quot;; color: rgba(0, 0, 0, 0.85);&quot;&gt;Once upon video upload, AI assistant is initialized within the chatbox and ChatGPT API is prompted to analyze the video behind the scene. AI assistant will provide analyzed data based on user&#39;s input throughout the interaction with the user. Users can send requests to the AI&lt;span class=&quot;Apple-converted-space&quot; style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp;&lt;/span&gt;for analyzing specific human behaviors or respond to the AI&#39;s inquiries through the chatbox&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;align=left;spacing=8;" vertex="1" parent="1">
+          <mxGeometry x="870" y="72.25" width="520" height="207.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
